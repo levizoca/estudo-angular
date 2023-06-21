@@ -1,0 +1,10 @@
+.div-100 {
+    display: flex;
+    width: 100%;
+    /*border: 1px solid red*/
+}
+
+.div-50 {
+    width: 50%;
+    /*border: 1px solid red*/
+}

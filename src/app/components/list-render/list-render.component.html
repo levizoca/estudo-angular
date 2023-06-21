@@ -1,0 +1,20 @@
+<div class="class">
+    <div class="div-100">
+        <div class="div-50">
+            <h2>Animais: </h2>
+            <ul>
+                <li *ngFor="let animal of animals">
+                    Nome: {{animal.name}} - tipo: {{ animal.type }}
+                    <button (click)="showAge(animal)">Show age</button>
+                </li>
+            </ul>
+            <h3>{{ animalDetails }}</h3>
+        </div>
+        <div class="div-50">
+            <h2>Heróis: </h2>
+            <ul>
+                <li *ngFor="let hero of heroes">ID: {{ hero.id }} Nome: {{ hero.name }}</li>
+            </ul>
+        </div>
+    </div>
+</div>

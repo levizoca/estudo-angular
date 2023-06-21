@@ -17,8 +17,7 @@ export class FirstComponentComponent implements OnInit {
     year: 1964
   };
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 }
