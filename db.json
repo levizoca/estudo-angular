@@ -1,0 +1,88 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "Turca",
+      "type": "Cat",
+      "age": 2
+    },
+    {
+      "id": 2,
+      "name": "Pepa",
+      "type": "Dog",
+      "age": 3
+    },
+    {
+      "id": 3,
+      "name": "Frida",
+      "type": "Dog",
+      "age": 1
+    },
+    {
+      "id": 4,
+      "name": "Mia",
+      "type": "Cat",
+      "age": 4
+    },
+    {
+      "id": 5,
+      "name": "Paco",
+      "type": "Horse",
+      "age": 5
+    },
+    {
+      "id": 6,
+      "name": "Bob",
+      "type": "Cat",
+      "age": 7
+    },
+    {
+      "id": 7,
+      "name": "Tom",
+      "type": "Parrot",
+      "age": 2
+    }
+  ],
+  "heros": [
+    {
+      "id": 1,
+      "name": "Dr. Nice"
+    },
+    {
+      "id": 2,
+      "name": "Narco"
+    },
+    {
+      "id": 3,
+      "name": "Bombasto"
+    },
+    {
+      "id": 4,
+      "name": "Celeritas"
+    },
+    {
+      "id": 5,
+      "name": "Magneta"
+    },
+    {
+      "id": 6,
+      "name": "RubberMan"
+    },
+    {
+      "id": 7,
+      "name": "Dynama"
+    },
+    {
+      "id": 8,
+      "name": "Dr. IQ"
+    },
+    {
+      "id": 9,
+      "name": "Magma"
+    },
+    {
+      "id": 10,
+      "name": "Tornado"
+    }
+  ]
+}

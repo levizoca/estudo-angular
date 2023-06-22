@@ -1,0 +1,18 @@
+
+<div class="class" *ngIf="canShow; else heroFound">
+    <h1>{{ animal?.name }}</h1>
+    <p>ID: {{ animal?.id }}</p>
+    <p>Tipo: {{ animal?.type }}</p>
+    <p>Idade: {{ animal?.age }}</p>
+</div>
+
+<ng-template #heroFound>
+    <h2>Hero</h2>
+</ng-template>
+
+<!-- 
+<div class="class" *ngIf="hero">
+    <h1>{{ hero.name }}</h1>
+    <p>ID: {{ hero.id }}</p>
+</div>
+-->

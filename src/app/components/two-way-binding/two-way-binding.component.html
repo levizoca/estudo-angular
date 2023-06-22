@@ -1,0 +1,24 @@
+<div class="class">
+    <div class="div-100">
+        <div class="div-50">
+            <h2>Two way data binding</h2>
+            <form action="">
+                <input type="text" [(ngModel)]="name" name="name" placeholder="Digite seu nome" />
+                <input type="submit" value="Enviar" />
+            </form>
+            <div *ngIf="name !== ''">
+                <p>O nome é {{ name }}</p>
+            </div>
+        </div>
+        <div class="div-50">
+            <h2>Soma de números</h2>
+            <form action="">
+                <input type="number" [(ngModel)]="number1" name="number1" placeholder="Digite um número" />
+                <input type="number" [(ngModel)]="number2" name="number2" placeholder="Digite um número" />
+            </form>
+            <div *ngIf="number1 + number2 !== 0">
+                <p>A soma é {{ number1 + number2 }}</p>
+            </div>
+        </div>
+    </div>
+</div>
