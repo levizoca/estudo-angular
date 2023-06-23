@@ -21,7 +21,7 @@ export class ListService {
   }
 
   getAllHeros(): Observable<Hero[]> {
-    return this.http.get<Hero[]>(`${this.apiUrl}/heros`);
+    return this.http.get<Hero[]>(`${this.apiUrl}/heroes`);
   }
 
   getItem(id: number): Observable<Animal> {
@@ -29,6 +29,6 @@ export class ListService {
   }
 
   getItemHero(id: number): Observable<Hero> {
-    return this.http.get<Hero>(`${this.apiUrl}/heros/${id}`);
+    return this.http.get<Hero>(`${this.apiUrl}/heroes/${id}`);
   }
 }

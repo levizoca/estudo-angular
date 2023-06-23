@@ -11,6 +11,9 @@ import { Hero } from 'src/app/Hero';
   styleUrls: ['./list-render.component.css']
 })
 export class ListRenderComponent {
+  //heroes = HEROES;
+  //animals = ANIMALS;
+
   heroes: Hero[] = [];
   animals: Animal[] = [];
 
